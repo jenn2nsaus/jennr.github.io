@@ -98,6 +98,7 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com)
 [Papersign] (https://www.papersign.co "Sign some stuff!")
 
 ## Images
-    ![Tux, the Linux mascot](/assets/images/tux.png)
+  Image of coffee bean mascot:
+    ![Chuck Bean](Chuck Bean.jpg)
 
 ## The End
