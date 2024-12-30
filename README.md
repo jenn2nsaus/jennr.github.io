@@ -55,9 +55,9 @@ Inline 'code'
 Indented code
 
   //Some comments
-  line 1 of code
-  line 2 of code
-  line 3 of code
+    line 1 of code
+    line 2 of code
+    line 3 of code
 
 
 Block code "fences"
@@ -93,10 +93,11 @@ Right-aligned columns
 
 ## Links
 
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com)
 [Paperform] (https://www.paperform.co)
 [Papersign] (https://www.papersign.co "Sign some stuff!")
 
 ## Images
-![Minion] (https://octodex.github.com/images/minion.png)
+    ![Tux, the Linux mascot](/assets/images/tux.png)
 
 ## The End
