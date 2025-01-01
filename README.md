@@ -1,4 +1,4 @@
- <link href="style.css" rel="stylesheet"></link>
+ <link href="style.css" rel="stylesheet" />
 
 # h1 heading
 ## h2 heading
