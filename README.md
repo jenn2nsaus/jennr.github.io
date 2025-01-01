@@ -1,6 +1,6 @@
  <link href="style.css" rel="stylesheet" />
 
-# h1 heading
+# h1 heading {.h1}
 ## h2 heading
 ### h3 heading
 #### h4 heading
