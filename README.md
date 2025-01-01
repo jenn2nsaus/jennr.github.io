@@ -1,5 +1,9 @@
  <link href="style.css" rel="stylesheet" />
 
+# Styled Heading
+
+<h1 class="custom-heading">My Styled Heading</h1>
+
 # h1 heading
 ## h2 heading
 ### h3 heading
