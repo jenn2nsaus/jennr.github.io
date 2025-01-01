@@ -10,3 +10,68 @@
     text-shadow: 0 1px 0 #000;
     color: #99FFFF;
 }
+
+        /* Body is a flex container to layout items horizontally */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Left menu styling */
+        .menu {
+            width: 250px; /* Width of the menu */
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column; /* Stack links vertically */
+            position: fixed; /* Fix the menu to the left */
+            top: 0;
+            left: 0;
+            height: 100vh; /* Full height of the viewport */
+        }
+
+        /* Menu link styling */
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            font-size: 16px;
+            margin: 5px 0;
+            transition: background-color 0.3s;
+        }
+
+        .menu a:hover {
+            background-color: #34495e;
+        }
+
+        /* Main content area */
+        .main-content {
+            background-color: #ecf0f1;
+            flex-grow: 1; /* Allow it to grow and take up the remaining space */
+            height: 100vh; /* Full height of the viewport */
+            overflow-y: auto; /* Allow scrolling if content overflows */
+        position: fixed; /* Fix the menu to the left */
+            top: 0;
+            left: 250px;  }
+
+        /* Styling for the main content headings */
+        .main-content h1 {
+            font-size: 2em;
+            color: #2c3e50;
+            position:relative;
+            left: 10px;
+            top:10px;
+        }
+
+        .main-content p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+            color: #34495e;
+            position: relative;
+            left: 10px;
+            line-break: normal;
+        }
